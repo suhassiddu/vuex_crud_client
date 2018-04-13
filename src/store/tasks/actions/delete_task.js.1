@@ -1,0 +1,8 @@
+import axios from 'axios'
+import host from './host'
+
+export default function delete_task( { commit}, { task}){
+	
+	commit( 'delete_task', { task})
+	
+}

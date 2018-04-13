@@ -1,0 +1,6 @@
+import axios from 'axios'
+import host from './host'
+
+export default function toggle_task( { commit}, { task}){
+	commit( 'toggle_task', { task})
+}
